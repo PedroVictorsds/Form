@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro da liga dos astronautas</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <form>
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="Nome:" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" /> -
+        <label for="passoword">Passowor:</label>
+        <input type="passoword" name="passoword" id="passoword" />
+      </div>
+      <br />
+      <div>
+        <label for="birthday">Data de nascimento</label>
+        <input type="date" name="birthday" id="birthday" /> -
+        <label for="photo">Foto:</label>
+        <input type="file" name="photo" id="photo" />
+      </div>
+      <br />
+      <div>
+        <label for="nationality">Nacionalidade:</label>
+        <select name="ationality" id="ationality">
+          <option value="russian">Russa</option>
+          <option value="american">american</option>
+          <option value="brasilian">Brasileira</option>
+        </select>
+
+        Genero:
+        <label for="female">F</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="male">M</label>
+        <input type="radio" name="gender" id="male" value="male" />
+      </div>
+      <br />
+      <div>
+        Suas principais qualidades:<br />
+        <label for="int"> Inteligência</label>
+        <input type="checkbox" id="int" name="int" /> |
+        <label for="res"> Resiliência</label>
+        <input type="checkbox" id="res" name="res" />|
+        <label for="pre">Preparo físico</label>
+        <input type="checkbox" id="pre" name="pre" />|
+        <label for="edu"> Educação</label>
+        <input type="checkbox" id="edu" name="edu" />
+      </div>
+      <br />
+      <div>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+          placeholder="Porque você gostaria de ser um autronauta?"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Criar" />
+      </div>
+    </form>
+  </body>
+</html>
